@@ -25,7 +25,21 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Seção 3: Introduçao à Javascript
 
+- [ ] 3-1: _Javascript - Primeiros passos_
+- [ ] 3-2: _Javascript - Array e loop For_
+- [ ] 3-3: _Javascript - Lógica de programação e Algoritmos_
+- [ ] 3-4: _Javascript - Objetos e funções_
+- [ ] 3-5: _Javascript ES6 - let, const, arrow functions e template literals_
+- [ ] 3-6: _Projeto - Playground Functions_
+
 ##### Seção 4: Javascript: DOM, Eventos e Web Storage
+
+- [ ] 4-1: _Javascript - DOM e seletores_
+- [ ] 4-2: _Javascript - Trabalhando com elementos_
+- [ ] 4-3: _Javascript - Eventos_
+- [ ] 4-4: _Javascript - Web Storage_
+- [ ] 4-5: _Projeto - Arte com Pixels_
+- [ ] 4-6: _Projetos Bônus_
 
 ##### Seção 5: HTML e CSS: Forms, Flexbox e Responsivo
 
