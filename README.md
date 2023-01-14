@@ -10,7 +10,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Seção 1: Introdução - Unix & Shell
 
-- [ ] 1-1: _Unix & Bash - Part 1_
+- [:white_check_mark:] 1-1: _Unix & Bash - Part 1_
 - [ ] 1-2: _Unix & Bash - Part 2_
 - [ ] 1-3: _Git - O que é e para que serve_
 - [ ] 1-4: _Git & GitHub - Entendendo os comandos_
