@@ -43,6 +43,25 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Seção 5: HTML e CSS: Forms, Flexbox e Responsivo
 
+- [ ] 5-1 - _HTML & CSS - Forms_
+- [ ] 5-2 - _Bibliotecas JavaScript e Frameworks CSS_
+- [ ] 5-3 - _CSS Flexbox - Parte 1_
+- [ ] 5-4 - _CSS Flexbox - Parte 2_
+- [ ] 5-5 - _CSS Responsivo - Mobile First_
+- [ ] 5-6 - _Projeto - Trybewarts_
+
 ##### Seção 6: Introdução à Javascript ES6 e Testes Unitários
 
+- [ ] 6-1 - _Fluxo de exceções e manipulação de objetos_
+- [ ] 6-2 - _Primriso passos em Jest_
+- [ ] 6-3 - _Matchers e cobertura de código_
+- [ ] 6-4 - _Projeto - Javascript Testes Unitários_
+
 ##### Seção 7: Higher Order Functions do Javascript ES6
+
+- [ ] 7-1 - _Introdução a Higher Order Functions_
+- [ ] 7-2 - _Higher Order Functions - sort e map_
+- [ ] 7-3 - _Higher Order Functions - filter e reduce_
+- [ ] 7-4 - _Javascript ES6 - spread operator, rest parameters e object destructing_
+- [ ] 7-5 - _Javascript ES6 - Array destructing, Default destructing, Object property shorthand e default parameters_
+- [ ] 7-6 - _Projeto - Zoo functions_
