@@ -1,10 +1,16 @@
 <!-- Crie a pasta unix_tests_permissions e navegue até ela. -->
+mkdir unix_tests_permissions
+cd unix_tests_permissions
 <!-- Rode o comando ls -l e veja quais as permissões dos arquivos. -->
+ls -l
 <!-- Crie o arquivo arquivo_teste.txt. -->
+touch arquivo_teste.txt
 <!-- Mude a permissão do arquivo arquivo_teste.txt para que todas as pessoas usuárias possam ter acesso à leitura e escrita, e verifique se está correto com o comando ls -l; -->
-<!-- Resultado esperado: -rw-rw-rw- 1 ana ana 1860 ago 13 11:39 arquivo_teste.txt -->
+chmod a+ wr arquivo_teste.txt
+ls -l
 <!-- Tire a permissão de escrita do arquivo arquivo_teste.txt para todas as pessoas usuárias, verifique se está correto com o comando ls -l; -->
-<!-- Resultado esperado: -r--r--r-- 1 ana ana 1860 ago 13 11:39 arquivo_teste.txt -->
+chmod a-w arquivo_teste.txt
+ls -l
 <!-- Volte à permissão do arquivo arquivo_teste.txt para a listada inicialmente utilizando o comando chmod 644 arquivo_teste.txt. -->
-<!-- Resultado esperado: -rw-r--r-- 1 ana ana 1860 ago 13 11:39 arquivo_teste.txt -->
+chmod 644 arquivo_teste.txt
 
