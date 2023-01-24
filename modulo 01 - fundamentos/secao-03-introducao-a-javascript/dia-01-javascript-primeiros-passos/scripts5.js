@@ -8,9 +8,26 @@ O lucro de um produto é o resultado da subtração do valor de venda pelo custo
 valorCustoTotal = valorCusto + impostoSobreOCusto;
 lucro = valorVenda - valorCustoTotal (lucro de um produto); */
 
+const custo = 1;
+const valor = 3;
+const quantidade = 1000;
+const aliquitaDeImposto = 1.2;
+const custoTotal = custo * aliquitaDeImposto;
+let lucro;
+
+if (custo < 0 || valor < 0 || quantidade < 0 || aliquitaDeImposto < 0) {
+  console.log('Favor inserir somente valores positivos.')
+} else {
+  lucro = (valor - custoTotal) * quantidade;
+}
+
+console.log('O lucro total foi de ' + lucro + ' reais.');
 
 /* Utilize if/else para escrever um código que, dado um salário bruto, calcule o líquido a ser recebido.
 Uma pessoa que trabalha de carteira assinada no Brasil tem descontados de seu salário bruto o INSS e o IR.
+
+
+
 
 A notação para um salário de R$1500,10, por exemplo, deve ser 1500.10. Para as faixas de impostos, use as seguintes referências:
 
@@ -23,6 +40,7 @@ Salário bruto de R$ 1.556,95 a R$ 2.594,92: alíquota de 9%
 Salário bruto de R$ 2.594,93 a R$ 5.189,82: alíquota de 11%
 
 Salário bruto acima de R$ 5.189,82: alíquota máxima de R$ 570,88
+
 
 IR (Imposto de Renda)
 
@@ -51,6 +69,51 @@ Fazendo a conta, temos: (7,5% de R$ 2.670,00) - R$ 142,80 = R$ 57,45
 
 O último cálculo para conseguir o salário líquido é R$ 2.670,00 - R$ 57,45 (salário-base - valor IR) = R$ 2.612,55.
 
-Resultado: R$ 2.612,55.
+Resultado: R$ 2.612,55. */
 
-De olho na dica 👀: que tal identificar as alíquotas com variáveis de nomes explicativos? */
+const salarioBruto = 1000.00;
+let aliquotaSS;
+let aliquotaIR;
+let deducao;
+let salarioQuaseLiquido;
+let salarioLiquido;
+
+if (salarioBruto > 5189.82) {
+  valorSS = 570.88;
+} else if (salarioBruto > 2594.93) {
+  aliquotaSS = 0.11;
+} else if (salarioBruto > 1556.95) {
+  aliquotaSS = 0.09;
+} else {
+  aliquotaSS = 0.08;
+}
+
+if (salarioBruto > 5189.82) {
+  salarioQuaseLiquido = salarioBruto - valorSS;
+} else {
+  salarioQuaseLiquido = salarioBruto * (1 - aliquotaSS);
+}
+
+
+if (salarioQuaseLiquido > 4664.68) {
+  aliquotaIR = 0.275;
+  deducao = 869.36;
+} else if (salarioQuaseLiquido > 3751.06) {
+  aliquotaIR = 0.225;
+  deducao = 636.13;
+} else if (salarioQuaseLiquido > 2826.66) {
+  aliquotaIR = 0.15;
+  deducao = 354.80;
+} else if (salarioQuaseLiquido > 1903.99) {
+  aliquotaIR = 0.075;
+  deducao = 142.80
+} else {
+  aliquotaIR = 0;
+  deducao = 0;
+}
+
+IRPF = (salarioQuaseLiquido * aliquotaIR) - deducao;
+
+salarioLiquido = salarioQuaseLiquido - IRPF;
+
+console.log(salarioLiquido);

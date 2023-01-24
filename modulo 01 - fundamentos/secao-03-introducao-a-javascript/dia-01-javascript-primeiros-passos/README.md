@@ -112,4 +112,4 @@ O último cálculo para conseguir o salário líquido é R$ 2.670,00 - R$ 57,45 
 
 Resultado: R$ 2.612,55.
 
-De olho na dica 👀: que tal identificar as alíquotas com variáveis de nomes explicativos?
+>>scripts5.js
