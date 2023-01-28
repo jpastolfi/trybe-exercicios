@@ -122,3 +122,5 @@ Minhas três principais habilidades são:
 JavaScript
 HTML
 CSS
+
+>>script2.js

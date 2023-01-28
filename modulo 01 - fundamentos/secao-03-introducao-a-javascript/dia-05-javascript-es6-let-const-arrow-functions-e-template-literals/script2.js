@@ -1,3 +1,5 @@
+const i = a => console.log(a);
+
 /* Crie duas funções JavaScript com as seguintes especificações: */
 
 /* Função 1: Escreva uma função que substitua a letra ‘x’ em uma frase.
@@ -9,6 +11,12 @@ Exemplo:
 Parâmetro: ‘Bebeto’
 Retorno: ‘Tryber Bebeto aqui!’
 Spoiler: O método split() pode ser utilizado de diferentes maneiras, como para separar as palavras de um texto. */
+
+const substituaX = nome => {
+    const frase = 'Tryber x aqui!';
+    fraseSplitada = (frase.split('x'));
+    return `${fraseSplitada[0]}${nome}${fraseSplitada[1]}!`;
+}
 
 /* Função 2: Escreva uma função que irá receber o retorno da Função 1 por parâmetro e retornará uma nova string.
 O nome da função deverá ser minhasSkills;
@@ -22,3 +30,16 @@ Minhas três principais habilidades são:
 JavaScript
 HTML
 CSS */
+
+const minhasSkills = (fraseInicial) => {
+    const skills = ['HTML', 'CSS', 'JavaScript'];
+    let oQueAprendi = `
+    ${fraseInicial} 
+    Minhas três principais habilidades são: 
+    ${skills[0]} 
+    ${skills[1]} 
+    ${skills[2]}`
+    return oQueAprendi;
+}
+
+console.log(minhasSkills(substituaX('João')))
