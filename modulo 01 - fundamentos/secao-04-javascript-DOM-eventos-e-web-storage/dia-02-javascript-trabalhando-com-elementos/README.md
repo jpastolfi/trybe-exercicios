@@ -15,3 +15,7 @@ Crie um filho para primeiroFilhoDoFilho.
 A partir desse filho criado, acesse terceiroFilho.
 
 >>index2.html && scripts2.js
+
+Remova a tag h2, filha do elemento elementoOndeVoceEsta.
+
+>>index3.html && scripts3.js
