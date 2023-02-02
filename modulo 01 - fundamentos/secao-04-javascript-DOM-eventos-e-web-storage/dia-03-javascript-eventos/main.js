@@ -22,15 +22,21 @@ secondLi.addEventListener('click', mudaClasse);
 thirdLi.addEventListener('click', mudaClasse);
 // - Crie uma função que, ao digitar na caixa de texto, altere o texto do elemento
 // com a classe 'tech';
-const elementoParaAlterar = document.querySelector('.tech');
-const caixaDeTexto = document.getElementById('input');
+input.addEventListener('input', (event) => {
+  const elementoParaAlterar = document.querySelector('.tech');
+  elementoParaAlterar.innerText = event.target.value;
+});
 // - Crie uma função que, ao clicar duas vezes em 'Meu top 3 do Spotrybefy', ele
 // redirecione para alguma página;
 //  - Que tal redirecionar para seu portfólio?
-
+myWebpage.addEventListener('dblclick', () => {
+  window.location.replace('https://jpastolfi.github.io/')
+})
 // - Crie uma função que, ao passar o mouse sobre 'Meu top 3 do Spotrybefy', altere
 // a cor do mesmo;
-
+myWebpage.addEventListener('mouseover',(event) => {
+  event.target.style.color = 'red';
+})
 // Segue abaixo um exemplo do uso de event.target:
 
 
