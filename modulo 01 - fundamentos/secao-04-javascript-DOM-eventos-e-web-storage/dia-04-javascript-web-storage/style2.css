@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style: none;
+}
+
+div {
+    vertical-align: top;
+}
+
+#config {
+    display: flex;
+    justify-content: space-around;
+    border: 1px green solid;
+    padding: 15px 0px;
+}
+
+div li button {
+    padding: 4px 40px;
+    margin: 8px;
+    width: 157px;
+}
+
+h1, h2 {
+    padding: 50px;
+}
+
+#paragraphs {
+    padding: 50px;
+}

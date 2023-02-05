@@ -13,3 +13,21 @@ Requisito 9: Adicione esse <li></li> criado (listItem) dentro da nossa lista (li
 Requisito 10: Agora precisamos adicionar o valor do input dentro de cada li. (listItem)
 
 >>index.html && &&style.css && script.js
+
+Exercício - Aplicando o DOM
+Imagine que você é a pessoa responsável por desenvolver uma página que servirá como um leitor de conteúdo escrito em que a pessoa usuária pode escolher as configurações da página.
+
+As pessoas devem ter o poder de alterar:
+
+Cor de fundo da tela;
+Cor do texto;
+Tamanho da fonte;
+Espaçamento entre as linhas do texto;
+Tipo da fonte (Font family).
+Essas preferências devem ser salvas de forma que, ao retornar à página, as preferências que foram previamente configuradas possam ser aplicadas na tela.
+
+Você também recebeu a imagem abaixo para ter uma referência de como a página ficará quando estiver pronta.
+
+Esse conteúdo escrito pode ser uma página de livro, uma reportagem de revista ou uma nota de jornal online. Para que você não tenha que pensar no conteúdo da página, utilize este link para gerar o texto para sua página.
+
+>>index2.html && style2.css && script2.js
