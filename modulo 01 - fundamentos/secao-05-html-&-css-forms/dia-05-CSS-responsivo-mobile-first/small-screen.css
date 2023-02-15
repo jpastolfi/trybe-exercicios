@@ -9,10 +9,13 @@
     box-sizing: inherit;
   }
   body {
+    margin: 50px;
+    font-size: large;
   }
   article {
   }
   h1 {
+    font-size: medium;
   }
   h2 {
   }
@@ -28,4 +31,36 @@
   }
   figcaption {
     font-size: .8em;
+    margin-bottom: 30px;
   }
+
+  /* Telas menores, laptops */
+@media screen and (min-width: 768px) {
+  body {
+    background-color: rgb(82, 85, 174);
+    font-size: larger;
+    margin: 5% 15%;
+  }
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+figure {
+  width: 40%;
+  margin: 15px;
+}
+  h1 {
+    font-size: x-large;
+  }
+}
+
+/* Desktops */
+@media (min-width: 992px) {
+  body {
+    background-color: brown;
+    font-size: xx-large;
+    margin: 10% 20%;
+    max-width: 80%;
+  }
+}
