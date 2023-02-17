@@ -1,6 +1,6 @@
 # Trybe
 
-Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[João Pedro Astolfi da Costa]( www.linkedin.com/in/jpastolfi)_ enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
+Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[João Pedro Astolfi da Costa](www.linkedin.com/in/jpastolfi)_ enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
 
 _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma carreira de sucesso em tecnologia"_
 
@@ -10,49 +10,49 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Seção 1: Introdução - Unix & Shell
 
-- [X] 1-1: _Unix & Bash - Part 1_
-- [X] 1-2: _Unix & Bash - Part 2_
-- [X] 1-3: _Git - O que é e para que serve_
-- [X] 1-4: _Git & GitHub - Entendendo os comandos_
+- [x] 1-1: _Unix & Bash - Part 1_
+- [x] 1-2: _Unix & Bash - Part 2_
+- [x] 1-3: _Git - O que é e para que serve_
+- [x] 1-4: _Git & GitHub - Entendendo os comandos_
 
 ##### Seção 2: Introdução à HTML & CSS
 
-- [X] 2-1: _HTML & CSS - Estruturas de página_
-- [X] 2-2: _HTML & CSS - Primeiros passos em CSS_
-- [ ] 2-3: _HTML & CSS - Seletores e posicionamento_
-- [ ] 2-4: _HTML semântico_
-- [ ] 2-5: _Projeto: Lessons learned_
+- [x] 2-1: _HTML & CSS - Estruturas de página_
+- [x] 2-2: _HTML & CSS - Primeiros passos em CSS_
+- [x] 2-3: _HTML & CSS - Seletores e posicionamento_
+- [x] 2-4: _HTML semântico_
+- [x] 2-5: _Projeto: Lessons learned_
 
 ##### Seção 3: Introduçao à Javascript
 
-- [ ] 3-1: _Javascript - Primeiros passos_
-- [ ] 3-2: _Javascript - Array e loop For_
-- [ ] 3-3: _Javascript - Lógica de programação e Algoritmos_
-- [ ] 3-4: _Javascript - Objetos e funções_
-- [ ] 3-5: _Javascript ES6 - let, const, arrow functions e template literals_
-- [ ] 3-6: _Projeto - Playground Functions_
+- [x] 3-1: _Javascript - Primeiros passos_
+- [x] 3-2: _Javascript - Array e loop For_
+- [x] 3-3: _Javascript - Lógica de programação e Algoritmos_
+- [x] 3-4: _Javascript - Objetos e funções_
+- [x] 3-5: _Javascript ES6 - let, const, arrow functions e template literals_
+- [x] 3-6: _Projeto - Playground Functions_
 
 ##### Seção 4: Javascript: DOM, Eventos e Web Storage
 
-- [ ] 4-1: _Javascript - DOM e seletores_
-- [ ] 4-2: _Javascript - Trabalhando com elementos_
-- [ ] 4-3: _Javascript - Eventos_
-- [ ] 4-4: _Javascript - Web Storage_
-- [ ] 4-5: _Projeto - Arte com Pixels_
-- [ ] 4-6: _Projetos Bônus_
+- [x] 4-1: _Javascript - DOM e seletores_
+- [x] 4-2: _Javascript - Trabalhando com elementos_
+- [x] 4-3: _Javascript - Eventos_
+- [x] 4-4: _Javascript - Web Storage_
+- [x] 4-5: _Projeto - Arte com Pixels_
+- [x] 4-6: _Projetos Bônus_
 
 ##### Seção 5: HTML e CSS: Forms, Flexbox e Responsivo
 
-- [ ] 5-1 - _HTML & CSS - Forms_
-- [ ] 5-2 - _Bibliotecas JavaScript e Frameworks CSS_
-- [ ] 5-3 - _CSS Flexbox - Parte 1_
-- [ ] 5-4 - _CSS Flexbox - Parte 2_
-- [ ] 5-5 - _CSS Responsivo - Mobile First_
-- [ ] 5-6 - _Projeto - Trybewarts_
+- [x] 5-1 - _HTML & CSS - Forms_
+- [x] 5-2 - _Bibliotecas JavaScript e Frameworks CSS_
+- [x] 5-3 - _CSS Flexbox - Parte 1_
+- [x] 5-4 - _CSS Flexbox - Parte 2_
+- [x] 5-5 - _CSS Responsivo - Mobile First_
+- [x] 5-6 - _Projeto - Trybewarts_
 
 ##### Seção 6: Introdução à Javascript ES6 e Testes Unitários
 
-- [ ] 6-1 - _Fluxo de exceções e manipulação de objetos_
+- [x] 6-1 - _Fluxo de exceções e manipulação de objetos_
 - [ ] 6-2 - _Primriso passos em Jest_
 - [ ] 6-3 - _Matchers e cobertura de código_
 - [ ] 6-4 - _Projeto - Javascript Testes Unitários_
@@ -74,7 +74,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 1-2: _JavaScript Assíncrono - Promises e fetch_
 - [ ] 1-3: _Prática - Casa de câmbio_
 - [ ] 1-4: _Async, await e testes assíncronos_
-- [ ] 1-5: _Projeto - Carrinho de compras
+- [ ] 1-5: \_Projeto - Carrinho de compras
 
 ##### Seção 2: Introdução ao React
 
