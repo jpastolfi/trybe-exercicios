@@ -1,0 +1,15 @@
+{
+  "name": "dia-02-primeiros-passos-em-jest",
+  "version": "1.0.0",
+  "description": "A função myRemove(arr, item) recebe um array arr e retorna uma cópia desse array sem o elemento item, caso ele exista no array: Verifique se a chamada myRemove([1, 2, 3, 4], 3) retorna o array esperado;",
+  "main": "script.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.4.0"
+  }
+}
