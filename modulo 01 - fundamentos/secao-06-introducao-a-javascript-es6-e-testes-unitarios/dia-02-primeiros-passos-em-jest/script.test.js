@@ -1,6 +1,4 @@
 /* A função myRemove(arr, item) recebe um array arr e retorna uma cópia desse array sem o elemento item, caso ele exista no array: */
-
-const exp = require('constants');
 const myRemove = require('./script');
 
 describe('Testa a função myRemove', () => {
