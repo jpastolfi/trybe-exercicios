@@ -36,10 +36,3 @@ const decode = (string) => {
 
 functions = { encode, decode };
 module.exports = functions;
-
-palavra = 'palavra';
-palavra2 = palavra.split('');
-console.log(palavra);
-console.log(palavra2);
-console.log(palavra.length);
-console.log(palavra2.length);
