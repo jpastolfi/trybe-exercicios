@@ -53,3 +53,17 @@ const verifyPair = (object, key, value) => {
 	const valueLocation = allValues.indexOf(value);
 	return keyLocation === valueLocation;
 }
+
+
+/* Utilizando o objeto (allLesson), crie uma função para contar quantos estudantes assistiram às aulas de Matemática; */
+const studentCount = (object) => {
+	const allValues = [Object.values(object.lesson1), Object.values(object.lesson2), Object.values(object.lesson3)]
+	let estudantesDeMatematica = 0;
+	for (let i = 0; i < allValues.length; i += 1) {
+		if (allValues[i][0] === 'Matemática') {
+			estudantesDeMatematica += allValues[i][1]
+		}
+	}
+	return estudantesDeMatematica;
+}
+/* Utilizando o objeto (allLesson), crie uma função que deva retornar um objeto que represente o relatório do professor ou professora, as aulas que ele ou ela ministrou e o número total de estudantes. */
