@@ -44,6 +44,24 @@ A ausência de uma resposta não altera a pontuação (quando for “N.A”);
 Uma resposta incorreta reduz a pontuação final em 0.5 ponto.
 
 Ao final, a HOF deve retornar o total de pontos obtidos através das respostas fornecidas pela pessoa estudante. Utilize os seguintes arrays: */
-
 const RIGHT_ANSWERS = ['A', 'C', 'B', 'D', 'A', 'A', 'D', 'A', 'D', 'C'];
 const STUDENT_ANSWERS = ['A', 'N.A', 'B', 'D', 'A', 'C', 'N.A', 'A', 'D', 'B'];
+
+const comparaResposta = (respostaCorreta, respostaDoAluno) => {
+  switch (respostaDoAluno) {
+    case ('N.A'):
+      return 0;
+    case (respostaCorreta):
+      return 1;
+    default:
+      return -0.5;
+  }
+}
+
+const verificaNota = (arrayDeRespostasCorretas, arrayDeRespostasDoAluno, callback) => {
+  let nota = 0;
+  arrayDeRespostasCorretas.forEach((elemento, index) => nota += callback(arrayDeRespostasCorretas[index], arrayDeRespostasDoAluno[index]));
+  return `Resultado final: ${nota} pontos`;
+}
+
+console.log(verificaNota(RIGHT_ANSWERS, STUDENT_ANSWERS, comparaResposta));
