@@ -94,22 +94,26 @@ const expectedResult3 = {
   releaseYear: 1991,
 };
 
-const getNamedBook = () => {
-  // escreva seu código aqui
-}
+const getNamedBook = () => books.find((elemento) => elemento.name.length === 26)
 
 /* Faça uma função que retorne true se todas as pessoas autoras tiverem nascido no século XX, ou false, caso contrário. */
 
-const expectedResult4 = true;
+const expectedResult4 = false;
 
-const someBookWasReleaseOnThe80s = () => {
-  // escreva seu código aqui
-}
+const someBookWasReleaseOnThe80s = () => books.every((elemento) => elemento.author.birthYear >= 1900 && elemento.author.birthYear <= 2000)
 
 /* Faça uma função que retorne true, caso nenhuma pessoa autora tenha nascido no mesmo ano, e false, caso contrário. */
 
 const expectedResult5 = false;
 
+let birthYears = [];
+let unique = true;
 const authorUnique = () => {
-  // escreva seu código aqui
-}
+  books.forEach((elemento) => birthYears.push(elemento.author.birthYear));
+  birthYears.sort();
+  birthYears.forEach((elemento, index) => {
+    if (birthYears[index] == birthYears[index+1]) {
+      return unique = false;
+    }
+  })
+};
