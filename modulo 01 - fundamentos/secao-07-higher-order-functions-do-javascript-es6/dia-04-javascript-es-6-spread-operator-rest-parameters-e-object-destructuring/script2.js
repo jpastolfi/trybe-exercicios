@@ -13,4 +13,3 @@ const jobInfos = {
 const cadastroPessoal = {...user, ...jobInfos};
 const {name, age, nationality, profession, squad, squadInitials} = cadastroPessoal;
 frase = `Hi, my name is ${name}, I'm ${age} years old and ${nationality}. I'm a ${profession} in the ${squad} squad, also known as ${squadInitials}.`;
-console.log(frase);
