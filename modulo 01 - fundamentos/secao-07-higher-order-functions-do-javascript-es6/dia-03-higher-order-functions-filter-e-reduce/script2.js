@@ -1,6 +1,5 @@
-Imagine que você tenha passado para a etapa seguinte de uma vaga de trabalho: o desafio prático! E agora precise mostrar todas as suas habilidades em reduce, resolvendo diversas questões.
+/* Imagine que você tenha passado para a etapa seguinte de uma vaga de trabalho: o desafio prático! E agora precise mostrar todas as suas habilidades em reduce, resolvendo diversas questões. */
 
-// Fonte: <https://restcountries.com/v2/all>
 const countries = [
   {
     name: 'Afghanistan',
@@ -68,28 +67,15 @@ const countries = [
   }
 ];
 
-1 - Calcule a quantidade total da população de todos os países.
-
-De olho na dica 👀: o valor inicial deve começar com 0, portanto o acumulador é um número.
-
-Copiar
-const expectedResult = 120797034;
-const getPopulation = () => {
- // retorne o seu código aqui
-}
-2 - Calcule a área total de todos os países.
-
-Copiar
-const expectedResult = 4311757;
-const getTotalArea = () => {
-// retorne seu código aqui
-}
-🚀 3 - Encontre o país com o maior nome.
-
-De olho na dica 👀: o reduce consegue comparar o valor do primeiro com o segundo parâmetro. Compare o tamanho da string name do primeiro parâmetro com a do segundo parâmetro e retorne aquele que for maior.
-
-Copiar
-const expectedResult = {
+/* 1 - Calcule a quantidade total da população de todos os países. */
+/* De olho na dica 👀: o valor inicial deve começar com 0, portanto o acumulador é um número. */
+const getPopulation = () => countries.reduce((totalPopulation, country) => totalPopulation += country.population, 0)
+/* 2 - Calcule a área total de todos os países. */
+const expectedResult2 = 4311757;
+const getTotalArea = () => countries.reduce((totalArea, country) => totalArea += country.area, 0);
+/* 3 - Encontre o país com o maior nome. */
+/* De olho na dica 👀: o reduce consegue comparar o valor do primeiro com o segundo parâmetro. Compare o tamanho da string name do primeiro parâmetro com a do segundo parâmetro e retorne aquele que for maior. */
+const expectedResult3 = {
   name: 'American Samoa',
   region: 'Oceania',
   currencies: [{ code: 'USD', name: 'United States Dollar' }],
@@ -97,35 +83,18 @@ const expectedResult = {
   population: 55197,
   area: 199
 }
-const longestName = () => {
-  // retorne seu código aqui
-}
-🚀 4 - Retorne a quantidade de vezes que a letra a maiúscula ou minúscula aparece no array de nomes.
 
-De olho na dica 👀: faça com que o array de nomes seja um array de letras.
-
-Copiar
-const names = [
-  'Aanemarie', 'Adervandes', 'Akifusa',
-  'Abegildo', 'Adicellia', 'Aladonata',
-  'Abeladerco', 'Adieidy', 'Alarucha',
-];
-const expectedResult = 20;
-const countA = () => {
-  // retorne seu código aqui
-}
-🚀 5 - Crie um array de objetos e calcule a média de notas. Utilize as constantes students e grades para criar um array de objetos e calcule a média da nota das pessoas estudantes:
-
-Copiar
-// O index 0 do array `students` equivale ao index 0 do array `grades`
+const longestName = () => countries.reduce((acc, curr) => acc.name.length > curr.name.length ? acc : curr);
+/* 4 - Retorne a quantidade de vezes que a letra a maiúscula ou minúscula aparece no array de nomes. */
+const nomesPaises = countries.map((elemento) => elemento.name);
+let contadorDeA = 0;
+nomesPaises.forEach((elemento) => contadorDeA += elemento.match(/\a/ig).length);
+/* 5 - Crie um array de objetos e calcule a média de notas. Utilize as constantes students e grades para criar um array de objetos e calcule a média da nota das pessoas estudantes: */
 const students = ['Pedro Henrique', 'Miguel', 'Maria Clara'];
 const grades = [[9, 8, 10, 7, 5], [10, 9, 9, 10, 8], [10, 7, 10, 8, 9]];
-const expectedResult = [
- { name: 'Pedro Henrique', average: 7.8 },
- { name: 'Miguel', average: 9.2 },
- { name: 'Maria Clara', average: 8.8 },
-];
 const studentAverage = () => {
-  // retorne seu código aqui
+  return students.map((student, index) => ({
+    name: student,
+    average: (grades.map((studentGrade) => studentGrade.reduce((a,b) => a + b,0)/studentGrade.length))[index]
+  }))
 }
-De olho na dica 👀: você pode utilizar o map para iterar no array e utilizar o reduce para calcular a média.
