@@ -149,25 +149,18 @@ const countries = [
 
 1 - Calcule a quantidade total da população de todos os países.
 
-De olho na dica 👀: o valor inicial deve começar com 0, portanto o acumulador é um número.
-
-Copiar
 const expectedResult = 120797034;
 const getPopulation = () => {
  // retorne o seu código aqui
 }
 2 - Calcule a área total de todos os países.
 
-Copiar
 const expectedResult = 4311757;
 const getTotalArea = () => {
 // retorne seu código aqui
 }
-🚀 3 - Encontre o país com o maior nome.
+3 - Encontre o país com o maior nome.
 
-De olho na dica 👀: o reduce consegue comparar o valor do primeiro com o segundo parâmetro. Compare o tamanho da string name do primeiro parâmetro com a do segundo parâmetro e retorne aquele que for maior.
-
-Copiar
 const expectedResult = {
   name: 'American Samoa',
   region: 'Oceania',
@@ -179,11 +172,9 @@ const expectedResult = {
 const longestName = () => {
   // retorne seu código aqui
 }
-🚀 4 - Retorne a quantidade de vezes que a letra a maiúscula ou minúscula aparece no array de nomes.
 
-De olho na dica 👀: faça com que o array de nomes seja um array de letras.
+4 - Retorne a quantidade de vezes que a letra a maiúscula ou minúscula aparece no array de nomes.
 
-Copiar
 const names = [
   'Aanemarie', 'Adervandes', 'Akifusa',
   'Abegildo', 'Adicellia', 'Aladonata',
@@ -193,9 +184,8 @@ const expectedResult = 20;
 const countA = () => {
   // retorne seu código aqui
 }
-🚀 5 - Crie um array de objetos e calcule a média de notas. Utilize as constantes students e grades para criar um array de objetos e calcule a média da nota das pessoas estudantes:
+5 - Crie um array de objetos e calcule a média de notas. Utilize as constantes students e grades para criar um array de objetos e calcule a média da nota das pessoas estudantes:
 
-Copiar
 // O index 0 do array `students` equivale ao index 0 do array `grades`
 const students = ['Pedro Henrique', 'Miguel', 'Maria Clara'];
 const grades = [[9, 8, 10, 7, 5], [10, 9, 9, 10, 8], [10, 7, 10, 8, 9]];
@@ -207,5 +197,15 @@ const expectedResult = [
 const studentAverage = () => {
   // retorne seu código aqui
 }
-De olho na dica 👀: você pode utilizar o map para iterar no array e utilizar o reduce para calcular a média.
 
+>>script2.js
+
+1 - Dada uma matriz, transforme em um array.
+
+2 - Crie uma string com os nomes de todas as pessoas autoras.
+
+3 - Calcule a média de idade que as pessoas autoras tinham quando seus respectivos livros foram lançados.
+
+4 - Encontre o livro com o maior nome.
+
+>>script3.js
