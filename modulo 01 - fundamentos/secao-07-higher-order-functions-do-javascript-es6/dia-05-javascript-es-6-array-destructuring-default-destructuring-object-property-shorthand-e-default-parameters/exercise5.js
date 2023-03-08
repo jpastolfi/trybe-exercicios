@@ -7,6 +7,6 @@ const moreStudents = [
 ];
 
 // Escreva seu código aqui
-const [] = moreStudents;
+const [student1, [student2, student3], [student4, student5]] = moreStudents;
 
 console.log(student1, student2, student3, student4, student5);
