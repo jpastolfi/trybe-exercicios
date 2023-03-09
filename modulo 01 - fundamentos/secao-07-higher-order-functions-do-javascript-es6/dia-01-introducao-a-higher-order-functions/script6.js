@@ -67,6 +67,12 @@ const gameActions = {
     warrior.healthPoints -= damageDragon;
     dragon.damage = damageDragon;
   },
+  turnResults: () => battleMembers,
 }
+
+gameActions.turnoWarrior();
+gameActions.turnoMago();
+gameActions.turnoDragon();
+console.log(gameActions.turnResults());
 
 /* Adicione ao objeto gameActions uma função de primeira classe que retorna o objeto battleMembers atualizado e faça um console.log para visualizar o resultado final do turno. */
